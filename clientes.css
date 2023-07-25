@@ -1,0 +1,58 @@
+*{margin: 0; padding:0;}  
+body{
+    background-color: rgb(159, 199, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+
+h1{
+    color: rgb(13, 13, 184);
+    font-size: 25px;
+}
+
+legend{
+    color:rgb(86, 86, 88);
+    font-size: 12px;
+}
+
+label, p{
+    text-decoration: none;
+    color: rgb(42, 8, 235);
+    font-size: 15px;
+}
+
+
+fieldset{
+    width: 700px;
+}
+
+.enviar, .limpar{
+    color: rgb(241, 244, 247);
+    font-size: 12px;
+    margin-left: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: rgb(45, 79, 230);
+    text-decoration:none;
+    text-transform: uppercase;
+    
+}
+.enviar:hover{
+    background:#5a8afa;
+    color:#fff;
+    text-shadow:0px 0px 5px #fff;
+    box-shadow: 0 3px 10px 0 #CCC;
+}
+.limpar:hover{
+    background:#5a8afa;
+    color:#fff;
+    text-shadow:0px 0px 5px #fff;
+    box-shadow: 0 3px 10px 0 #CCC;
+}
+
+.voltar{
+    font-size: 10px;
+}
