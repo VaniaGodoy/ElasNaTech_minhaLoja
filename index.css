@@ -7,14 +7,14 @@ body{
     font-weight: inherit;
     margin-top: 6px;
     margin-left: 3px;
-    background:rgb(159, 199, 248);
+    background-color:rgb(206, 224, 246); 
     background-image: url(foto2.png);
     background-repeat:no-repeat;
     background-attachment:fixed;
-    background-size: 1534px 665px;   
-    background-position: right bottom;    
-    
-}
+    background-size: 1531px 655px;   
+    background-position: right bottom; 
+        
+} 
 
 .menu {
     list-style:none;
@@ -27,6 +27,7 @@ body{
     position:relative;
     float:left;
     border-right:1px solid #5d5c61;
+    
 }
 
 .menu li a{ color:rgb(24, 7, 156);   
