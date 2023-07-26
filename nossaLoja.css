@@ -52,17 +52,17 @@ h1{
 .produtos li{
 	list-style-type: none;
 	width: 980px;	
-	margin: 10%;
+	margin: 8%;
 	align-items: center;
 	
 }
 
-.produtos li img{
+li img{
 	display: block;
 	text-align: center;
-	width: 30%;	
-	margin-top: 70px;
-	padding: 8px 8px;
+	width: 50%;	
+	margin-top: 80px;
+	padding: 4px 4px;
 	box-sizing: border-box;
 	border: 2px solid #7c87fe;
 	border-radius: 10px;
