@@ -57,7 +57,7 @@ h1{
 	
 }
 
-li img{
+.produtos li img{
 	display: block;
 	text-align: center;
 	width: 50%;	
