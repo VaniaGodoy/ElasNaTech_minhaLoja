@@ -15,6 +15,7 @@ h1{
 legend{
     color:rgb(86, 86, 88);
     font-size: 12px;
+    margin-left: 5px;
 }
 
 label, p{
@@ -29,7 +30,8 @@ input {
 
 
 fieldset{
-    width: 700px;
+    width: 750px;
+    height: auto;
 }
 
 .enviar, .limpar{
