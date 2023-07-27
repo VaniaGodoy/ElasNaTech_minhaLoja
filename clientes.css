@@ -1,4 +1,5 @@
 *{margin: 0; padding:0;}  
+
 body{
     background-color:rgb(206, 224, 246); 
     font-family: Arial, Helvetica, sans-serif;
@@ -22,20 +23,24 @@ label, p{
     font-size: 15px;
 }
 
+input {
+    font-size: 15px;
+}
+
 
 fieldset{
     width: 700px;
 }
 
 .enviar, .limpar{
-    color: rgb(241, 244, 247);
+    color: rgb(26, 9, 113);
     font-size: 12px;
     margin-left: 2px;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    background-color: rgb(45, 79, 230);
+    background-color: #4e72f7;
     text-decoration:none;
     text-transform: uppercase;
     
@@ -54,5 +59,6 @@ fieldset{
 }
 
 .voltar{
-    font-size: 10px;
+    font-size: 12px;
+    color: rgb(13, 13, 184);
 }

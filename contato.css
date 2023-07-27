@@ -11,33 +11,35 @@ body{
 h1{
     color: rgb(13, 13, 184);
     font-size: 25px;
+    
 }
 
 label, p, a, textarea{
     text-decoration: none;
-    color: rgb(42, 8, 235);
+    color: rgb(13, 13, 184);
     font-size: 15px;
     margin-left: 10px;
 }
 
 legend{
-    color:rgb(86, 86, 88);
+    color:rgb(86, 88, 86);
     font-size: 12px;
 }
 
 fieldset{
-    width: 700px;
+    width: 650px;
+    height: auto;
 }
 
 .enviar, .limpar{
-    color: rgb(241, 244, 247);
+    color: rgb(26, 9, 113);
     font-size: 12px;
     margin-left: 2px;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    background-color: rgb(45, 79, 230);
+    background-color: #4e72f7;
     text-decoration:none;
     text-transform: uppercase;
     
@@ -56,5 +58,6 @@ fieldset{
 }
 
 .voltar{
-    font-size: 10px;
+    font-size: 12px;
+    color: rgb(13, 13, 184);
 }
