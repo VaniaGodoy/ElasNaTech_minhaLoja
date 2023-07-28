@@ -6,7 +6,7 @@ body{
     font-style: italic;
     font-weight: inherit;
     margin-top: 1px;
-    margin-left: 1px;
+    margin-left: auto;
     background-color:rgb(206, 224, 246);       
     
 }
@@ -28,7 +28,7 @@ body{
 }
 
 .menu2{
-    display: block;
+    display: flex;
     margin-top: 12px;
     
 }
@@ -64,9 +64,10 @@ h1{
 
 .foto{
     list-style-type: none;
-	width: 120px;  
-    padding-left: 120px;  
+	width: 100%;  
+    padding-left:95px;  
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
     	
@@ -74,11 +75,10 @@ h1{
 
 .foto img{
 	align-items: center;
-    width: 200%;       
+    width: 24%;       
     border: 1px solid rgb(245, 241, 241);
     border-radius: 15px;
-    display: flex;
-    
+    display: flex;  
   
 }
 
