@@ -6,14 +6,13 @@ body{
     font-style: italic;
     font-weight: inherit;
     margin-top: 1px;
-    margin-left: 1px;
+    margin-left: auto;
     background-color:rgb(206, 224, 246); 
     background-image: url(foto2.png);
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size: 1531px 655px;   
-    background-position: right bottom; 
-        
+    background-position: center bottom; 
 } 
 
 .menu {
@@ -27,7 +26,7 @@ body{
 .menu li{
     position:relative;
     float:left;
-    border-right:1px solid #5d5c61;
+    border-right:1px solid #4d2ed8;
     
 }
 
@@ -35,10 +34,11 @@ body{
     text-decoration:none; padding:8px 8px;display:block;text-transform: uppercase;}
 
 .menu li a:hover{
-    color: rgb(26, 9, 113);
-    background-color: #4e72f7;
+    background:#5a8afa;
+    color:#fff;
     text-shadow:0px 0px 5px #fff;
-    box-shadow: 0 3px 10px 0 #CCC;
+    box-shadow: 0 2px 8px 0 #CCC;
+    cursor: pointer;
         
 }
 
