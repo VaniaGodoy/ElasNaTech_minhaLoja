@@ -54,12 +54,51 @@ body{
     cursor: pointer;
 }
 
-h1{
+.rede-sociais{
+    flex-flow:column-reverse;
+    display:inline-flex; 
+    gap: 5px;   
+    padding-top: 13px;
+    margin-left: 15px;    
+    
+}
+
+.rede-sociais ul{
+    display: flex;
+    flex-direction:row;
+    align-items:flex-end;
+    
+
+}
+
+.rede-sociais .icone{
+    width: 30px;
+    position: relative;
+    transition: 0.2s ease-in-out;
+    align-items: center;
+    padding-left: 20px;
+    flex-direction: row;
+	display:flex;
+    
+}
+
+.rede-sociais .icone:hover{
+    transform: scale(1.2);
+}
+
+.rede-sociais_titulo{
+    font-size: 10px;
+    position: relative;
     color: rgb(26, 9, 113);
+    
+}
+
+h1{
+    color: rgb(38, 19, 135);
 	background-color: #4e72f7;
     font-size: x-large;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     margin: 0px;
     font-style:oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -96,3 +135,4 @@ h1{
 	background-color: #4e72f7;
     font-size: 16px;    
 }
+
