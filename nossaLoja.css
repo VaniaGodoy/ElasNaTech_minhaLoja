@@ -127,12 +127,21 @@ h1{
 
 .rodape{
     text-align: center;
-	
+	background-color: #4e72f7;  
+    position: absolute;
+     bottom:auto;
+     width: 100%;  
+}
+
+.rodape-info{
+    text-transform:lowercase;
+    list-style-type: none;
+    display: block;
 }
 
 .copyright {
-	color: rgb(26, 9, 113);
-	background-color: #4e72f7;
-    font-size: 16px;    
+	color: rgb(26, 9, 113);	
+    font-size: 16px; 
+       
 }
 
